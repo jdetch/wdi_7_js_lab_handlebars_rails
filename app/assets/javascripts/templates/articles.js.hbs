@@ -1,0 +1,22 @@
+{{#each this}}
+  <h2>{{title}}</h2>
+
+  {{#with author}}
+  {{! Inside here, the context here is the author object}}
+    <p>by {{name}} ({{username}})</p>
+  {{/with}}
+
+  <p>{{summary}}</p>
+
+  {{#if comments}}
+    <ul>
+      {{#each comments}}
+    {{! Inside here, the content is the comments object, not the article}}
+        </li>{{content}}</li>
+      {{/each}}
+    </ul>
+  {{else}}
+    <p>No comments</p>
+  {{/if}}
+
+{{/each}}
