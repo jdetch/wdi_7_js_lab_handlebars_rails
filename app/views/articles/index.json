@@ -8,7 +8,8 @@
       "id": 1,
       "name": "Alex",
       "username": "grantovich"
-    }
+    },
+    "comments": []
   },
   {
     "id": 2,
@@ -19,7 +20,17 @@
       "id": 1,
       "name": "Alex",
       "username": "grantovich"
-    }
+    },
+    "comments": [
+      {
+        "id": 1,
+        "content": "This was the first comment made on my article"
+      },
+      {
+        "id": 2,
+        "content": "Another anonymous comment made on the second article"
+      }
+    ]
   },
   {
     "id": 1,
@@ -30,6 +41,7 @@
       "id": 2,
       "name": "David",
       "username": "tibbon"
-    }
+    },
+    "comments": []
   }
 ]
